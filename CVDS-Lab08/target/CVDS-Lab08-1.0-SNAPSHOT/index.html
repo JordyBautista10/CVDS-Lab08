@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Start Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+    <h1>Hello World!</h1>
+</body>
+<script>
+    function validateForm() {
+        let x = document.forms["formTodo"]["numero"].value;
+        if (isNaN(x)) {
+            alert("Dato no adecuado");
+            return false;
+        }
+    }
+</script>
+<form name="formTodo"  action="mundoTaco" method="get">
+    <label for="numero">Number</label><br>
+    <input type="text"  id="numero" name="id">
+    <button type="submit" onclick="validateForm()">Enviar</button>
+</form>
+
+</html>
