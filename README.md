@@ -3,6 +3,8 @@ INTEGRANTES: Ximena Alejandra Rodriguez Salamanca, Jordy Santiago Bautista Sepul
 
 Pagina:
 
+docker run -p 3306:3306 --name some-mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:latest
+
 ![image](https://user-images.githubusercontent.com/123812969/232991602-18729dc0-3f6c-4ce7-8b70-cc854a941216.png)
 
 
