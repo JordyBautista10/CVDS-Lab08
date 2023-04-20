@@ -1,8 +1,9 @@
-C:\Users\user\Desktop\U\CVDS\Lab08\CVDS-Lab08\src\main\java\edu\eci\cvds\servlet\ServletTwo.java
+C:\Users\user\Desktop\U\CVDS\Lab08\CVDS-Lab08\src\main\java\edu\eci\cvds\servlet\model\GuessBean.java
 C:\Users\user\Desktop\U\CVDS\Lab08\CVDS-Lab08\src\main\java\edu\eci\cvds\servlet\model\Todo.java
+C:\Users\user\Desktop\U\CVDS\Lab08\CVDS-Lab08\src\main\java\edu\eci\cvds\servlet\model\UserBean.java
+C:\Users\user\Desktop\U\CVDS\Lab08\CVDS-Lab08\src\main\java\edu\eci\cvds\servlet\servlets\ServletTwo.java
 C:\Users\user\Desktop\U\CVDS\Lab08\CVDS-Lab08\src\main\java\edu\eci\cvds\servlet\Main.java
-C:\Users\user\Desktop\U\CVDS\Lab08\CVDS-Lab08\src\main\java\edu\eci\cvds\bean\GuessBean.java
+C:\Users\user\Desktop\U\CVDS\Lab08\CVDS-Lab08\src\main\java\edu\eci\cvds\servlet\servlets\Service.java
 C:\Users\user\Desktop\U\CVDS\Lab08\CVDS-Lab08\src\main\java\edu\eci\cvds\servlet\backingBean\DataService.java
-C:\Users\user\Desktop\U\CVDS\Lab08\CVDS-Lab08\src\main\java\edu\eci\cvds\servlet\SampleServlet.java
 C:\Users\user\Desktop\U\CVDS\Lab08\CVDS-Lab08\src\main\java\edu\eci\cvds\servlet\backingBean\LineChartBean.java
-C:\Users\user\Desktop\U\CVDS\Lab08\CVDS-Lab08\src\main\java\edu\eci\cvds\servlet\Service.java
+C:\Users\user\Desktop\U\CVDS\Lab08\CVDS-Lab08\src\main\java\edu\eci\cvds\servlet\servlets\SampleServlet.java
