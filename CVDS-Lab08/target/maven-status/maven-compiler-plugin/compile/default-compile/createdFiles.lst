@@ -1,4 +1,5 @@
 edu\eci\cvds\servlet\servlets\Service.class
+edu\eci\cvds\servlet\model\ConfigurationService.class
 edu\eci\cvds\servlet\servlets\ServletTwo.class
 edu\eci\cvds\servlet\model\GuessBean.class
 edu\eci\cvds\servlet\servlets\SampleServlet.class

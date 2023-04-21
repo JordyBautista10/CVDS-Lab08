@@ -16,13 +16,13 @@ public class ConfigurationService {
         return configurationRepository.save(configuration);
     }
     public Configuration getConfiguration(String propiedad){
-        return configurationRepository.findById(propiedad);
+        return configurationRepository.findByPropiedad(propiedad).get(1);
     }
     public List<Configuration> getAllConfiguration(){
         return configurationRepository.findAll();
     }
     public Configuration updateConfiguration(Configuration configuration){
-        if(configurationRepository.existsById(configuration.getPropiedad())){
+        if(configurationRepository.findByPropiedad(configuration.getPropiedad()).size() == 0){
             return configurationRepository.save(configuration);
         }
         return null;
