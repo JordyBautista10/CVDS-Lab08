@@ -23,7 +23,7 @@ public class Main{
     public CommandLineRunner run() throws Exception {
         return (args) -> {
             System.out.println("Adding Configuration....\n");
-            configurationService.addConfiguration(new Configuration("premio","100"));
+            //configurationService.addConfiguration(new Configuration("premio","100"));
 
             System.out.println("\nGetting all employees....");
             configurationService.getAllConfiguration().forEach(configuration -> System.out.println(configuration));

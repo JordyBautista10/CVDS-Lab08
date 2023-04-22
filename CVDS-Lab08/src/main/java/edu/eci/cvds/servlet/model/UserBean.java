@@ -2,12 +2,13 @@ package edu.eci.cvds.servlet.model;
 
 import org.springframework.stereotype.Component;
 
+import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 
 @Component
 @ManagedBean(name = "userBean")
-@SessionScoped
+@ApplicationScoped
 public class UserBean {
     private String name;
 
