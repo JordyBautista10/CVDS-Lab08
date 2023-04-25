@@ -6,6 +6,8 @@ Pagina:
 
 docker run -p 3306:3306 --name some-mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:latest
 
+taskkill /IM "java.exe" /F
+
 
 ![image](https://user-images.githubusercontent.com/123812969/232991602-18729dc0-3f6c-4ce7-8b70-cc854a941216.png)
 
