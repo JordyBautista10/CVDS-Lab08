@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+</h:head>
+<h:body>
+    <h:form>
+        <h1>bienvenido</h1>
+        <div id="contenedor">
+            <p>Ingrese su nombre:</p>
+            <p:inputText value="#{userBean.name}"/>
+            <p>Ingrese el valor del premio:</p>
+            <p:inputText type="number" value="#{premio}"/>
+            <p>Ingrese cuanto va a restar por cada error:</p>
+            <p:inputText type="number" value="#{err}"/>
+            <p></p>
+            <p:commandButton value= "Iniciar" action="#{userBean.login(premio,err)}"/>
+        </div>
+
+    </h:form>
+</h:body>
+</html>
