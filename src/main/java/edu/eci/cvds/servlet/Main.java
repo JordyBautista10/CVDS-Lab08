@@ -24,7 +24,7 @@ public class Main{
         return (args) -> {
             System.out.println("Adding Configuration....\n");
 
-            System.out.println("\nGetting all employees....");
+            System.out.println("\nGetting all configuration....");
             configurationService.getAllConfiguration().forEach(configuration -> System.out.println(configuration));
         };
     }

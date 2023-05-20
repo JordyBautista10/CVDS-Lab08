@@ -11,9 +11,9 @@
             <p>Ingrese su nombre:</p>
             <p:inputText value="#{userBean.name}"/>
             <p>Ingrese el valor del premio:</p>
-            <p:inputText type="number" value="#{premio}"/>
+            <p:inputNumber value="#{premio}" minValue="1" maxValue="1000" />
             <p>Ingrese cuanto va a restar por cada error:</p>
-            <p:inputText type="number" value="#{err}"/>
+            <p:inputNumber value="#{err}" minValue="1" maxValue="1000" />
             <p></p>
             <p:commandButton value= "Iniciar" action="#{userBean.login(premio,err)}"/>
         </div>
